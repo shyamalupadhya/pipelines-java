@@ -8,7 +8,7 @@ trigger:
 - feature/*
 
 pr:
-  autoCancel: false
+  autoCancel: true
   branches:
     include:
       - develop
