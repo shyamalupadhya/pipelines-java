@@ -5,10 +5,13 @@
 
 trigger:
 - master
+- feature/*
 
 pr:
+  autoCancel: true
   branches:
-    - feature/*
+    include:
+      - develop
 
 pool:
   vmImage: ubuntu-latest
