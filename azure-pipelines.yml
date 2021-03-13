@@ -7,8 +7,10 @@ trigger:
 - master
 
 pr:
+  autoCancel: false
   branches:
-    - feature/*
+    include:
+      - feature/*
 
 pool:
   vmImage: ubuntu-latest
