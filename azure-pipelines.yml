@@ -10,7 +10,7 @@ pr:
   autoCancel: false
   branches:
     include:
-      - feature/*
+      - develop
 
 pool:
   vmImage: ubuntu-latest
